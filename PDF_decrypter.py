@@ -24,4 +24,6 @@ if __name__ == '__main__':
                 else:
                     unlock_file(i)
     else:
-        print('No files inputed!')
+        print('No file inputed, decrypt all .pdf files in current floder \
+automaticly.')
+        unlock_directory()
